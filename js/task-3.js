@@ -24,6 +24,7 @@
 // const ADMIN_PASSWORD = 'jqueryismyjam';
 // let message;
 
+console.log('task-3');
 
 let message = prompt ('Введите пароль');
 

@@ -17,6 +17,7 @@
 // const total = 100;
 // const ordered = 50;
 
+console.log('task-2');
 
 const total = 100;
 const ordered = 130;

@@ -21,19 +21,39 @@
 
 console.log('task-6');
 
+// вариант через for
+
+// let input;
+// let total = 0;
+
+// for (input ; input !== null ; total += Number(input)) {
+
+// input = prompt ('Введите число');
+
+//   if (Number(isNaN(input))) {
+//     alert ('Было введено не число, попробуйте еще раз');
+//     input = 0;
+//     continue;
+//   } 
+// }
+
+// alert(`Общая сумма чисел равна ${total}`);
+
+// Вариант через while
+
 let input;
 let total = 0;
 
-for (input ; input !== null ; total += Number(input)) {
-
-input = prompt ('Введите число');
+while (input !== null ) {
+  input = prompt ('Введите число');
 
   if (Number(isNaN(input))) {
-    alert ('Было введено не число, попробуйте еще раз');
-    input = 0;
-    continue;
-  } 
+        alert ('Было введено не число, попробуйте еще раз');
+        input = 0;
+        continue;
+      } 
+
+  total = total + Number(input)
 }
 
 alert(`Общая сумма чисел равна ${total}`);
-

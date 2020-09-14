@@ -53,7 +53,7 @@ while (input !== null ) {
         continue;
       } 
 
-  total = total + Number(input)
+  total += Number(input)
 }
 
 alert(`Общая сумма чисел равна ${total}`);
